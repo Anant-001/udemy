@@ -17,7 +17,7 @@ import Partners from "./components/Partners";
 import Footer from "./components/Routes/Footer";
 import FAQ from "./components/FAQ";
 import UdemyBusinessPage from "./pages/UdemyBusinessPage";
-import TeachOnUdemy from "./pages/TeachOnUdemy";
+import TeachOnUdemy from "./pages/TeachonUdemy.jsx";
 // ✅ New Page
 import PlansPricingPage from "./pages/PlansPricingPage";
 import AboutPage from "./pages/AboutPage";
@@ -29,6 +29,7 @@ import TermsPage from "./pages/TermsPage";
 import PrivacyPage from "./pages/PrivacyPage";
 import CookiePolicyPage from "./pages/CookiePolicyPage";
 import FAQs from "./pages/FAQ.jsx";
+
 
 export default function App() {
     const [searchTerm, setSearchTerm] = useState("");
